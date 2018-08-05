@@ -13,7 +13,7 @@
                 <?php $this->archiveTitle(' &raquo; ','',''); ?>
             <?php endif; ?>
         </div>
-        &copy; <?php echo date('Y'); ?> <a rel="nofollow" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>. 模板由<a href="http://pagecho.com">cho</a>制作.
+        &copy; <?php echo date('Y'); ?> <a rel="nofollow" href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>. 由<a href="http://www.typecho.org">Typecho</a>强力驱动. 模板由<a href="http://pagecho.com">cho</a>制作.
     </div>
 </footer>
 <?php $this->footer(); ?>
